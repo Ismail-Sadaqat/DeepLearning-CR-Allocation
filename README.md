@@ -36,13 +36,6 @@ The system is based on a centralized CR network architecture, with a central nod
 - **Adafruit RFM9x LoRa Transceiver Module:** Essential for long-range, low-power wireless communication between all nodes and the central node. 
 - **RTL-SDR Dongle and Antenna:** Attached to the central node for continuous RF spectrum monitoring. 
 
-#### Software
-- **Python:** Used for the central node's software on the Raspberry Pi, including the DL algorithms. 
-- **C++:** Used for programming Arduino nodes for sensor data collection and communication. 
-- **TensorFlow Lite:** Used for model compression (quantization to Float 16) to enable efficient deployment on resource-limited devices like the Raspberry Pi. The model size was reduced by 83% (from 48.12 MB to 8.02 MB). 
-- **GNU Radio:** Used for configuring SDRs and capturing I/Q samples for dataset creation. 
-- **RadioHead library:** Facilitates reliable communication for SU transmission requests. 
-
 #### Hardware Block Diagram
 ![Hardware Block Diagram](https://github.com/Ismail-Sadaqat/DeepLearning-CR-Allocation/blob/7422f0db8af95d24fbeaac50a0ae422174e60269/Hardware/Hardware%20Block%20Diagram.png)
 
@@ -50,3 +43,9 @@ The Hardware Block Diagram illustrates this operational scenario, where the cent
 
 #### Experimental Setup
 ![Hardware Experimental Setup](https://github.com/Ismail-Sadaqat/DeepLearning-CR-Allocation/blob/c7f62bcadec88a3a4345f4e45120ab2b31bf2c31/Hardware/Experimental%20Setup.png)
+
+#### Software
+- **Python:** Used for the central node's software on the Raspberry Pi, including the DL algorithms. 
+- **C++:** Used for programming Arduino nodes for sensor data collection and communication. 
+- **TensorFlow Lite:** Used for model compression (quantization to Float 16) to enable efficient deployment on resource-limited devices like the Raspberry Pi. The model size was reduced by 83% (from 48.12 MB to 8.02 MB). 
+- **GNU Radio:** Used for configuring SDRs and capturing I/Q samples for dataset creation. 
