@@ -44,7 +44,7 @@ The system is based on a centralized CR network architecture, with a central nod
 - **RadioHead library:** Facilitates reliable communication for SU transmission requests. 
 
 #### Hardware Block Diagram
-
+https://github.com/Ismail-Sadaqat/DeepLearning-CR-Allocation/blob/7422f0db8af95d24fbeaac50a0ae422174e60269/Hardware/Hardware%20Block%20Diagram.png
 
 
 
