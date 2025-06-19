@@ -19,7 +19,7 @@ The rapid growth of mobile devices, IoT applications, and other connected techno
 
 Our project proposes an intelligent spectrum management system utilizing advanced Deep Learning (DL) algorithms and Cognitive Radio (CR) techniques. The core of this solution is a Convolutional Neural Network (CNN) model designed to enhance Spectrum Sensing (SS) capabilities, continuously monitoring and dynamically allocating available spectrum resources to mobile and IoT devices. This approach aims to maximize spectrum utilization and translate DL-based SS research into a practical, real-world implementation, encompassing both algorithmic contribution and practical system implementation. 
 
-The system is designed with the following key objectives:
+**The system is designed with the following key objectives**:
 - **Spectrum Optimization:** Implement an SS and spectrum allocation solution to maximize the use of available frequency bands. 
 - **Interference Mitigation:** Minimize interference among devices sharing the same spectrum resources. 
 - **Deep Learning Integration:** Utilize advanced DL techniques to improve SS accuracy and adaptability. 
