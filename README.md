@@ -49,4 +49,4 @@ The system is based on a centralized CR network architecture, with a central nod
 The Hardware Block Diagram illustrates this operational scenario, where the central node receives transmission requests from secondary users (SUs) over a dedicated 440 MHz control channel. When SU-1 submits a request, it enters a FIFO queue. Simultaneously, the RTL-SDR collects I/Q samples, which are analyzed by a CNN-based spectrum sensing (SS) model. The model outputs [1, 0], indicating that the 433 MHz band is occupied while 500 MHz is free. The central node then allocates the available 500 MHz band to SU-1, ensuring efficient spectrum utilization.
 
 #### Experimental Setup
-![Hardware Experimental Setup]()
+![Hardware Experimental Setup](https://github.com/Ismail-Sadaqat/DeepLearning-CR-Allocation/blob/c7f62bcadec88a3a4345f4e45120ab2b31bf2c31/Hardware/Experimental%20Setup.png)
