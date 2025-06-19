@@ -43,3 +43,11 @@ The system is based on a centralized CR network architecture, with a central nod
 - **GNU Radio:** Used for configuring SDRs and capturing I/Q samples for dataset creation. 
 - **RadioHead library:** Facilitates reliable communication for SU transmission requests. 
 
+#### Hardware Block Diagram
+
+
+
+
+
+
+
