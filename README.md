@@ -48,4 +48,8 @@ The Hardware Block Diagram illustrates this operational scenario, where the cent
 - **Python:** Used for the central node's software on the Raspberry Pi, including the DL algorithms. 
 - **C++:** Used for programming Arduino nodes for sensor data collection and communication. 
 - **TensorFlow Lite:** Used for model compression (quantization to Float 16) to enable efficient deployment on resource-limited devices like the Raspberry Pi. The model size was reduced by 83% (from 48.12 MB to 8.02 MB). 
-- **GNU Radio:** Used for configuring SDRs and capturing I/Q samples for dataset creation. 
+- **GNU Radio:** Used for configuring SDRs and capturing I/Q samples for dataset creation.
+
+### Repository Contents
+/code:
+/docs:
