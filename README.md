@@ -51,5 +51,5 @@ The Hardware Block Diagram illustrates this operational scenario, where the cent
 - **GNU Radio:** Used for configuring SDRs and capturing I/Q samples for dataset creation.
 
 ### Repository Contents
-/code:
-/docs:
+/code: Contains the source code for the Raspberry Pi-based system, including code for the Primary User (PU) and Secondary User (SU) implemented on Arduino, as well as scripts for training the deep learning model.
+/docs: Includes the final project report, presentation slides, and project poster.
